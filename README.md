@@ -1,5 +1,19 @@
 # How to Use Browser Instructions for Web Scraping
 
+- [General tips](#general-tips)
+- [Structuring instructions for Scraper APIs and Web Unblocker](#structuring-instructions-for-scraper-apis-and-web-unblocker)
+  * [Web Unblocker](#web-unblocker)
+  * [Scraper APIs](#scraper-apis)
+- [Postpone execution or wait for elements](#postpone-execution-or-wait-for-elements)
+  * [Wait for an element to load](#wait-for-an-element-to-load)
+  * [Wait](#wait)
+- [Click on elements](#click-on-elements)
+- [Fill in text in fields](#fill-in-text-in-fields)
+- [Scroll pages](#scroll-pages)
+  * [Scroll by pixel](#scroll-by-pixel)
+  * [Scroll to the bottom](#scroll-to-the-bottom)
+- [Fetch browser resources](#fetch-browser-resources)
+
 Browser instructions are a feature of Oxylabs’ [<u>Scraper
 API</u>](https://oxylabs.io/products/scraper-api) solutions and [<u>Web
 Unblocker</u>](https://oxylabs.io/products/web-unblocker), enabling
