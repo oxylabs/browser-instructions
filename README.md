@@ -458,6 +458,8 @@ product page</u>](https://www.aliexpress.us/item/3256805956826539.html)
 as it has related products at the bottom that load only when you scroll
 to this section:
 
+![](/images/aliexpress.png)
+
 Let’s say your goal is to scrape these related products. You can
 instruct the browser to scroll to the bottom and give it some time to
 load these elements:
