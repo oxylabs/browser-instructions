@@ -43,7 +43,7 @@ instructions fail, you may find it helpful to retrieve a [<u>PNG
 screenshot</u>](https://developers.oxylabs.io/scraper-apis/getting-started/global-parameter-values#render)
 of the result, which will let you see what the headless browser is
 dealing with. For better control when handling failures, you can use the
-[<u>on_error</u>](https://developers.oxylabs.io/scraper-apis/headless-browser/browser-instructions/list-of-instructions#on_error)
+[<u>on_error</u>](https://developers.oxylabs.io/scraper-apis/headless-browser/browser-instructions-beta/list-of-instructions#on_error)
 parameter to specify whether browser instructions should be stopped
 entirely or continue with the next instruction on error.
 
@@ -56,8 +56,8 @@ XPath and CSS selectors, you can use the **Developer Tools** \>
 
 ![](/images/dev_tools.png)
 
-[<u>Oxylabs
-documentation</u>](https://developers.oxylabs.io/scraper-apis/headless-browser/browser-instructions)
+Oxylabs
+documentation, for [<u>Web Unblocker</u>](https://developers.oxylabs.io/advanced-proxy-solutions/web-unblocker/headless-browser) and [<u>Scraper APIs</u>](https://developers.oxylabs.io/scraper-apis/headless-browser),
 is the go-to resource for all the available parameters, so keep it open
 for a quick reference.
 
