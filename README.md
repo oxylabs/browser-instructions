@@ -57,7 +57,7 @@ XPath and CSS selectors, you can use the **Developer Tools** \>
 ![](/images/dev_tools.png)
 
 Oxylabs
-documentation, for [<u>Web Unblocker</u>](https://developers.oxylabs.io/advanced-proxy-solutions/web-unblocker/headless-browser) and [<u>Scraper APIs</u>](https://developers.oxylabs.io/scraper-apis/headless-browser),
+documentation for [<u>Web Unblocker</u>](https://developers.oxylabs.io/advanced-proxy-solutions/web-unblocker/headless-browser) and [<u>Scraper APIs</u>](https://developers.oxylabs.io/scraper-apis/headless-browser)
 is the go-to resource for all the available parameters, so keep it open
 for a quick reference.
 
