@@ -79,7 +79,7 @@ Begin by installing the `requests` module that we'll use to make requests to Web
 ```bash
 pip install requests
 ```
-Depending on your set up, you may want to use the `pip3` keyword instead:
+Depending on your setup, you may want to use the `pip3` keyword instead:
 
 ```bash
 pip3 install requests
