@@ -2,6 +2,7 @@
 
 - [General tips](#general-tips)
 - [Structuring instructions for Scraper APIs and Web Unblocker](#structuring-instructions-for-scraper-apis-and-web-unblocker)
+  * [Installing libraries](#installing-libraries)
   * [Web Unblocker](#web-unblocker)
   * [Scraper APIs](#scraper-apis)
 - [Postpone execution or wait for elements](#postpone-execution-or-wait-for-elements)
@@ -70,6 +71,19 @@ Sandbox</u>](https://sandbox.oxylabs.io/products) page, let’s instruct
 the browser to click the first product listing and scrape it:
 
 ![](/images/sandbox.png)
+
+### Installing libraries
+
+Begin by installing the `requests` module that we'll use to make requests to Web Unblocker endpoint and Scraper APIs. Open the terminal in your IDE and run this line:
+
+```bash
+pip install requests
+```
+Depending on your set up, you may want to use the `pip3` keyword instead:
+
+```bash
+pip3 install requests
+```
 
 ### Web Unblocker
 
