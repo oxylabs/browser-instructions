@@ -1,5 +1,7 @@
 # How to Use Browser Instructions for Web Scraping
 
+[![](https://dcbadge.vercel.app/api/server/eWsVUJrnG5)](https://discord.gg/GbxmdGhZjq)
+
 - [General tips](#general-tips)
 - [Structuring instructions for Scraper APIs and Web Unblocker](#structuring-instructions-for-scraper-apis-and-web-unblocker)
   * [Installing libraries](#installing-libraries)
