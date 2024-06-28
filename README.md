@@ -43,10 +43,10 @@ After sending a request to the Scraper APIs or Web Unblocker, it’s best
 to check the output for any interaction errors to make sure that every
 browser instruction was completed successfully. In cases where
 instructions fail, you may find it helpful to retrieve a [<u>PNG
-screenshot</u>](https://developers.oxylabs.io/scraper-apis/getting-started/global-parameter-values#render)
+screenshot</u>](https://developers.oxylabs.io/scraper-apis/e-commerce-scraper-api/features/javascript-rendering)
 of the result, which will let you see what the headless browser is
 dealing with. For better control when handling failures, you can use the
-[<u>on_error</u>](https://developers.oxylabs.io/scraper-apis/headless-browser/browser-instructions-beta/list-of-instructions#on_error)
+[<u>on_error</u>](https://developers.oxylabs.io/scraper-apis/e-commerce-scraper-api/features/browser-instructions/list-of-instructions#on_error)
 parameter to specify whether browser instructions should be stopped
 entirely or continue with the next instruction on error.
 
@@ -60,7 +60,7 @@ XPath and CSS selectors, you can use the **Developer Tools** \>
 ![](/images/dev_tools.png)
 
 Oxylabs
-documentation for [<u>Web Unblocker</u>](https://developers.oxylabs.io/advanced-proxy-solutions/web-unblocker/headless-browser) and [<u>Scraper APIs</u>](https://developers.oxylabs.io/scraper-apis/headless-browser)
+documentation for [<u>Web Unblocker</u>](https://developers.oxylabs.io/advanced-proxy-solutions/web-unblocker/headless-browser) and [<u>Scraper APIs</u>](https://developers.oxylabs.io/scraper-apis/e-commerce-scraper-api/features/browser-instructions)
 is the go-to resource for all the available parameters, so keep it open
 for a quick reference.
 
