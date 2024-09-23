@@ -242,7 +242,7 @@ load after 5 seconds:
 
 ```python
 payload = {
-    "source": "universal_ecommerce",
+    "source": "universal",
     "url": "https://www.wayfair.com/furniture/pdp/ebern-designs-cidalino-83-upholstered-sleeper-sofa-chaise-with-storage-2-cup-holders-w100038905.html",
     "render": "html",
     "browser_instructions": [
@@ -271,7 +271,7 @@ completely. Let’s use the previous Wayfair page as an example:
 
 ```python
 payload = {
-    "source": "universal_ecommerce",
+    "source": "universal",
     "url": "https://www.wayfair.com/furniture/pdp/ebern-designs-cidalino-83-upholstered-sleeper-sofa-chaise-with-storage-2-cup-holders-w100038905.html",
     "render": "html",
     "browser_instructions": [
@@ -365,7 +365,7 @@ Hence, you can instruct the browser to:
 
 ```python
 payload = {
-    "source": "universal_ecommerce",
+    "source": "universal",
     "url": "https://www.bestbuy.com/site/searchpage.jsp?st=backpack",
     "geo_location": "United States",
     "render": "html",
@@ -451,7 +451,7 @@ trigger the first lazy loading section and load 30 more items:
 
 ```python
 payload = {
-    "source": "universal_ecommerce",
+    "source": "universal",
     "url": "https://www.aliexpress.us/",
     "geo_location": "United States",
     "render": "html",
@@ -482,7 +482,7 @@ load these elements:
 
 ```python
 payload = {
-    "source": "universal_ecommerce",
+    "source": "universal",
     "url": "https://www.aliexpress.us/item/3256805956826539.html",
     "geo_location": "United States",
     "render": "html",
