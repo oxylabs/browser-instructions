@@ -3,10 +3,10 @@
 [![](https://dcbadge.vercel.app/api/server/eWsVUJrnG5)](https://discord.gg/GbxmdGhZjq)
 
 - [General tips](#general-tips)
-- [Structuring instructions for Scraper APIs and Web Unblocker](#structuring-instructions-for-scraper-apis-and-web-unblocker)
+- [Structuring instructions for Web Scraper API and Web Unblocker](#structuring-instructions-for-web-scraper-api-and-web-unblocker)
   * [Installing libraries](#installing-libraries)
   * [Web Unblocker](#web-unblocker)
-  * [Scraper APIs](#scraper-apis)
+  * [Web Scraper API](#scraper-api)
 - [Postpone execution or wait for elements](#postpone-execution-or-wait-for-elements)
   * [Wait for an element to load](#wait-for-an-element-to-load)
   * [Wait](#wait)
@@ -17,8 +17,8 @@
   * [Scroll to the bottom](#scroll-to-the-bottom)
 - [Fetch browser resources](#fetch-browser-resources)
 
-Browser instructions are a feature of Oxylabs’ [<u>Scraper
-API</u>](https://oxylabs.io/products/scraper-api) solutions and [<u>Web
+Browser instructions are a feature of Oxylabs’ [<u> Wev Scraper
+API</u>](https://oxylabs.io/products/scraper-api/web) solution and [<u>Web
 Unblocker</u>](https://oxylabs.io/products/web-unblocker), enabling
 users to interact with a web page when using a headless browser. For
 instance, you can tell the headless browser to scroll down to the bottom
@@ -39,14 +39,14 @@ make. Take notice of any peculiarities, like longer loading times or
 unexpected page refreshes, that may affect how the headless browser sees
 the page and, thus, its ability to interact with desired elements.
 
-After sending a request to the Scraper APIs or Web Unblocker, it’s best
+After sending a request to Web Scraper API or Web Unblocker, it’s best
 to check the output for any interaction errors to make sure that every
 browser instruction was completed successfully. In cases where
 instructions fail, you may find it helpful to retrieve a [<u>PNG
-screenshot</u>](https://developers.oxylabs.io/scraper-apis/e-commerce-scraper-api/features/javascript-rendering)
+screenshot</u>](https://developers.oxylabs.io/scraper-apis/web-scraper-api/features/javascript-rendering#png-screenshot)
 of the result, which will let you see what the headless browser is
 dealing with. For better control when handling failures, you can use the
-[<u>on_error</u>](https://developers.oxylabs.io/scraper-apis/e-commerce-scraper-api/features/browser-instructions/list-of-instructions#on_error)
+[<u>on_error</u>](https://developers.oxylabs.io/scraper-apis/web-scraper-api/features/browser-instructions/list-of-instructions#on_error)
 parameter to specify whether browser instructions should be stopped
 entirely or continue with the next instruction on error.
 
@@ -60,13 +60,13 @@ XPath and CSS selectors, you can use the **Developer Tools** \>
 ![](/images/dev_tools.png)
 
 Oxylabs
-documentation for [<u>Web Unblocker</u>](https://developers.oxylabs.io/advanced-proxy-solutions/web-unblocker/headless-browser) and [<u>Scraper APIs</u>](https://developers.oxylabs.io/scraper-apis/e-commerce-scraper-api/features/browser-instructions)
+documentation for [<u>Web Unblocker</u>](https://developers.oxylabs.io/advanced-proxy-solutions/web-unblocker/headless-browser/browser-instructions-beta) and [<u>Web Scraper API</u>](https://developers.oxylabs.io/scraper-apis/web-scraper-api/features/browser-instructions)
 is the go-to resource for all the available parameters, so keep it open
 for a quick reference.
 
-## Structuring instructions for Scraper APIs and Web Unblocker
+## Structuring instructions for Web Scraper API and Web Unblocker
 
-The process of creating browser instructions for Scraper APIs and Web
+The process of creating browser instructions for Web Scraper API and Web
 Unblocker differs slightly, and we'll explore these variances below to
 make it clearer for you. So, using this [<u>Oxylabs’
 Sandbox</u>](https://sandbox.oxylabs.io/products) page, let’s instruct
@@ -76,7 +76,7 @@ the browser to click the first product listing and scrape it:
 
 ### Installing libraries
 
-Begin by installing the `requests` module that we'll use to make requests to Web Unblocker endpoint and Scraper APIs. Open the terminal in your IDE and run this line:
+Begin by installing the `requests` module that we'll use to make requests to Web Unblocker endpoint and the API. Open the terminal in your IDE and run this line:
 
 ```bash
 pip install requests
@@ -101,7 +101,7 @@ import requests
 
 proxies = {
   "http": "http://USERNAME:PASSWORD@unblock.oxylabs.io:60000",
-  "https": "http://USERNAME:PASSWORD@unblock.oxylabs.io:60000"
+  "https": "https://USERNAME:PASSWORD@unblock.oxylabs.io:60000"
 }
 
 
@@ -159,9 +159,9 @@ headers = {
 }
 ```
 
-### Scraper APIs
+### Web Scraper API
 
-For all Scraper APIs, browser instructions must be paired with the
+For Web Scraper API, browser instructions must be paired with the
 `browser_instructions` key and included in the payload. These instructions
 can be provided as a single line or spread out for improved readability:
 
@@ -539,7 +539,7 @@ payload = {
 ```
 
 This article focuses on the basics of forming and using browser
-instructions with our Scraper APIs and Web Unblocker. So, take your time
+instructions with our Web Scraper API and Web Unblocker. So, take your time
 to play around and see what works best for your target websites. As
 always, if you have any questions, don’t hesitate to contact our 24/7
 support team via [<u>live chat</u>](https://oxylabs.io/) or
