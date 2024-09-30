@@ -6,7 +6,7 @@
 - [Structuring instructions for Web Scraper API and Web Unblocker](#structuring-instructions-for-web-scraper-api-and-web-unblocker)
   * [Installing libraries](#installing-libraries)
   * [Web Unblocker](#web-unblocker)
-  * [Web Scraper API](#scraper-api)
+  * [Web Scraper API](#web-scraper-api)
 - [Postpone execution or wait for elements](#postpone-execution-or-wait-for-elements)
   * [Wait for an element to load](#wait-for-an-element-to-load)
   * [Wait](#wait)
