@@ -19,11 +19,11 @@
   * [Scroll to the bottom](#scroll-to-the-bottom)
 - [Fetch browser resources](#fetch-browser-resources)
 
-Browser instructions are a feature of Oxylabs’ [<u> Wev Scraper
+Browser instructions are a feature of Oxylabs’ [<u> Web Scraper
 API</u>](https://oxylabs.io/products/scraper-api/web) solution and [<u>Web
-Unblocker</u>](https://oxylabs.io/products/web-unblocker), enabling
-users to interact with a web page when using a headless browser. For
-instance, you can tell the headless browser to scroll down to the bottom
+Unblocker</u>](https://oxylabs.io/products/web-unblocker), allowing
+users to interact with a web page when using a headless browser mode. For
+instance, you can use Custom Browser Instructions with a headless browser to scroll down to the bottom
 of the page, click on a specific element, enter text into a specific
 field, and much more. As a result, your scraping operations will be
 better equipped to handle various page interactions without using
@@ -38,7 +38,7 @@ websites.
 Before writing custom browser instructions, you should explore your
 target web page and navigate through each step you want the browser to
 make. Take notice of any peculiarities, like longer loading times or
-unexpected page refreshes, that may affect how the headless browser sees
+unexpected page refreshes, that may affect how your headless browser sees
 the page and, thus, its ability to interact with desired elements.
 
 After sending a request to Web Scraper API or Web Unblocker, it’s best
@@ -46,7 +46,7 @@ to check the output for any interaction errors to make sure that every
 browser instruction was completed successfully. In cases where
 instructions fail, you may find it helpful to retrieve a [<u>PNG
 screenshot</u>](https://developers.oxylabs.io/scraper-apis/web-scraper-api/features/javascript-rendering#png-screenshot)
-of the result, which will let you see what the headless browser is
+of the result, which will let you see what your headless browser is
 dealing with. For better control when handling failures, you can use the
 [<u>on_error</u>](https://developers.oxylabs.io/scraper-apis/web-scraper-api/features/browser-instructions/list-of-instructions#on_error)
 parameter to specify whether browser instructions should be stopped
