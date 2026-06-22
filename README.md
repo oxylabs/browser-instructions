@@ -45,10 +45,10 @@ After sending a request to Web Scraper API or Web Unblocker, it’s best
 to check the output for any interaction errors to make sure that every
 browser instruction was completed successfully. In cases where
 instructions fail, you may find it helpful to retrieve a [<u>PNG
-screenshot</u>](https://developers.oxylabs.io/scraper-apis/web-scraper-api/features/javascript-rendering#png-screenshot)
+screenshot</u>](https://developers.oxylabs.io/products/web-scraper-api/features/js-rendering-and-browser-control#png-screenshot)
 of the result, which will let you see what your headless browser is
 dealing with. For better control when handling failures, you can use the
-[<u>on_error</u>](https://developers.oxylabs.io/scraper-apis/web-scraper-api/features/browser-instructions/list-of-instructions#on_error)
+[<u>on_error</u>](https://developers.oxylabs.io/products/web-scraper-api/features/js-rendering-and-browser-control#browser-instructions)
 parameter to specify whether browser instructions should be stopped
 entirely or continue with the next instruction on error.
 
@@ -62,7 +62,7 @@ XPath and CSS selectors, you can use the **Developer Tools** \>
 ![](/images/dev_tools.png)
 
 Oxylabs
-documentation for [<u>Web Unblocker</u>](https://developers.oxylabs.io/advanced-proxy-solutions/web-unblocker/headless-browser/browser-instructions-beta) and [<u>Web Scraper API</u>](https://developers.oxylabs.io/scraper-apis/web-scraper-api/features/browser-instructions)
+documentation for [<u>Web Unblocker</u>](https://developers.oxylabs.io/products/web-unblocker/custom-browser-instructions) and [<u>Web Scraper API</u>](https://developers.oxylabs.io/products/web-scraper-api/features/js-rendering-and-browser-control#browser-instructions)
 is the go-to resource for all the available parameters, so keep it open
 for a quick reference.
 
