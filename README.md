@@ -1,6 +1,6 @@
 # How to Use Browser Instructions for Web Scraping
 
-[![Oxylabs promo code](https://raw.githubusercontent.com/oxylabs/product-integrations/refs/heads/master/Affiliate-Universal-1090x275.png)](https://oxylabs.io/pages/gitoxy?utm_source=877&utm_medium=affiliate&groupid=877&utm_content=browser-instructions-github&transaction_id=102f49063ab94276ae8f116d224b67)
+[![Oxylabs promo code](https://raw.githubusercontent.com/oxylabs/product-integrations/refs/heads/master/Affiliate-Universal-1090x275.png)](https://oxylabs.io/pages/gitoxy?utm_source=github&utm_medium=referral&utm_content=browser-instructions&utm_campaign=banner&groupid=877)
 
 <p align="left">
   <a href="https://dashboard.oxylabs.io"><img src="https://img.shields.io/badge/%F0%9F%9A%80_Get_Started-FF6B35?style=for-the-badge" alt="Get started"></a>
@@ -26,8 +26,8 @@
 - [Fetch browser resources](#fetch-browser-resources)
 
 Browser instructions are a feature of Oxylabs’ [<u> Web Scraper
-API</u>](https://oxylabs.io/products/scraper-api/web) solution and [<u>Web
-Unblocker</u>](https://oxylabs.io/products/web-unblocker), allowing
+API</u>](https://oxylabs.io/products/scraper-api/web?utm_source=github&utm_medium=referral&utm_content=browser-instructions&groupid=877) solution and [<u>Web
+Unblocker</u>](https://oxylabs.io/products/web-unblocker?utm_source=github&utm_medium=referral&utm_content=browser-instructions&groupid=877), allowing
 users to interact with a web page when using a headless browser mode. For
 instance, you can use Custom Browser Instructions with a headless browser to scroll down to the bottom
 of the page, click on a specific element, enter text into a specific
@@ -61,7 +61,7 @@ entirely or continue with the next instruction on error.
 You can use XPath and CSS selectors to select elements or use text to
 easily target elements with a certain text value. If you need a
 refresher on how to form selectors, see this blog post on [<u>XPath vs.
-CSS</u>](https://oxylabs.io/blog/xpath-vs-css). To quickly test out your
+CSS</u>](https://oxylabs.io/blog/xpath-vs-css?utm_source=github&utm_medium=referral&utm_content=browser-instructions&groupid=877). To quickly test out your
 XPath and CSS selectors, you can use the **Developer Tools** \>
 **Elements** tab, open the search bar, and paste your selector:
 
@@ -550,5 +550,5 @@ This article focuses on the basics of forming and using browser
 instructions with our Web Scraper API and Web Unblocker. So, take your time
 to play around and see what works best for your target websites. As
 always, if you have any questions, don’t hesitate to contact our 24/7
-support team via [<u>live chat</u>](https://oxylabs.io/) or
+support team via [<u>live chat</u>](https://oxylabs.io/?utm_source=github&utm_medium=referral&utm_content=browser-instructions&groupid=877) or
 [<u>email</u>](mailto:support@oxylabs.io).
