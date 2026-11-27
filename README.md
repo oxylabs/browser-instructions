@@ -4,7 +4,7 @@
 
 <p align="left">
   <a href="https://dashboard.oxylabs.io"><img src="https://img.shields.io/badge/%F0%9F%9A%80_Get_Started-FF6B35?style=for-the-badge" alt="Get started"></a>
-  <a href="https://developers.oxylabs.io/products/web-api"><img src="https://img.shields.io/badge/%F0%9F%93%9A_Documentation-4A90E2?style=for-the-badge" alt="Documentation"></a>
+  <a href="https://developers.oxylabs.io/products/web-api?utm_source=github&utm_medium=referral&utm_content=browser-instructions&utm_campaign=banner&groupid=877"><img src="https://img.shields.io/badge/%F0%9F%93%9A_Documentation-4A90E2?style=for-the-badge" alt="Documentation"></a>
   <a href="https://dashboard.oxylabs.io"><img src="https://img.shields.io/badge/%F0%9F%93%8A_Dashboard-2EA44F?style=for-the-badge" alt="Dashboard"></a>
   <a href="https://discord.gg/Pds3gBmKMH"><img src="https://img.shields.io/badge/%F0%9F%92%AC_Discord-5865F2?style=for-the-badge" alt="Discord"></a>
   <a href="https://www.youtube.com/@oxylabs"><img src="https://img.shields.io/badge/%E2%96%B6%EF%B8%8F_YouTube-FF0000?style=for-the-badge" alt="YouTube"></a>
@@ -51,10 +51,10 @@ After sending a request to Web Scraper API or Web Unblocker, it’s best
 to check the output for any interaction errors to make sure that every
 browser instruction was completed successfully. In cases where
 instructions fail, you may find it helpful to retrieve a [<u>PNG
-screenshot</u>](https://developers.oxylabs.io/products/web-scraper-api/features/js-rendering-and-browser-control#png-screenshot)
+screenshot</u>](https://developers.oxylabs.io/products/web-scraper-api/features/js-rendering-and-browser-control?utm_source=github&utm_medium=referral&utm_content=browser-instructions&groupid=877#png-screenshot)
 of the result, which will let you see what your headless browser is
 dealing with. For better control when handling failures, you can use the
-[<u>on_error</u>](https://developers.oxylabs.io/products/web-scraper-api/features/js-rendering-and-browser-control#browser-instructions)
+[<u>on_error</u>](https://developers.oxylabs.io/products/web-scraper-api/features/js-rendering-and-browser-control?utm_source=github&utm_medium=referral&utm_content=browser-instructions&groupid=877#browser-instructions)
 parameter to specify whether browser instructions should be stopped
 entirely or continue with the next instruction on error.
 
@@ -68,7 +68,7 @@ XPath and CSS selectors, you can use the **Developer Tools** \>
 ![](/images/dev_tools.png)
 
 Oxylabs
-documentation for [<u>Web Unblocker</u>](https://developers.oxylabs.io/products/web-unblocker/custom-browser-instructions) and [<u>Web Scraper API</u>](https://developers.oxylabs.io/products/web-scraper-api/features/js-rendering-and-browser-control#browser-instructions)
+documentation for [<u>Web Unblocker</u>](https://developers.oxylabs.io/products/web-unblocker/custom-browser-instructions?utm_source=github&utm_medium=referral&utm_content=browser-instructions&groupid=877) and [<u>Web Scraper API</u>](https://developers.oxylabs.io/products/web-scraper-api/features/js-rendering-and-browser-control?utm_source=github&utm_medium=referral&utm_content=browser-instructions&groupid=877#browser-instructions)
 is the go-to resource for all the available parameters, so keep it open
 for a quick reference.
 
